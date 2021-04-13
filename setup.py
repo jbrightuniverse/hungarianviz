@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='hungarianalg',
-    url='https://github.com/jbrightuniverse/hungarianalg',
+    name='hungarianviz',
+    url='https://github.com/jbrightuniverse/hungarianviz',
     author='James Yuming Yu',
-    packages=['hungarianalg'],
-    install_requires=['numpy'],
+    packages=['hungarianviz'],
+    install_requires=['numpy', 'PIL'],
     version='0.0.1',
     license='MIT',
     description='Implementation of the Hungarian Algorithm for optimal matching in bipartite weighted graphs.',
